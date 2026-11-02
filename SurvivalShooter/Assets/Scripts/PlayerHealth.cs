@@ -1,4 +1,4 @@
-// 파일명: PlayerHealth.cs
+
 using UnityEngine;
 using UnityEngine.UI;
 

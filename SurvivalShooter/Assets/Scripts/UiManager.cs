@@ -1,4 +1,4 @@
-// 파일명: UIManager.cs
+
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
 
     private void OnEnable() => SetActiveGameOverUI(false);
 
-    
+
     public void SetScore(int score)
     {
         if (ScoreText != null) ScoreText.text = $"Score: {score}";
@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
         if (GameOverUI != null) GameOverUI.SetActive(active);
     }
 
-  
+
     public void SetWaveText(int wave, int count)
     {
         if (WaveInfoText == null) return;

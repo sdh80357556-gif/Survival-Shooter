@@ -1,4 +1,4 @@
-// 파일명: Gun.cs
+
 using System.Collections;
 using UnityEngine;
 

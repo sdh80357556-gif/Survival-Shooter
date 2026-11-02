@@ -1,4 +1,4 @@
-// 파일명: LivingEntity.cs
+
 using UnityEngine;
 using UnityEngine.Events;
 

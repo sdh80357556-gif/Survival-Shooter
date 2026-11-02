@@ -1,12 +1,12 @@
-// 파일명: PlayerMovement.cs
+
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [field: SerializeField] public float MoveSpeed { get; private set; } = 6f;
     [field: SerializeField] public LayerMask GroundLayer { get; private set; }
-    
-    
+
+
     [field: SerializeField] public string WalkParamName { get; private set; } = "IsWalking";
 
     private int hashWalk;

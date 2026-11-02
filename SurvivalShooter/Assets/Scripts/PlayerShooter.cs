@@ -1,4 +1,4 @@
-// 파일명: PlayerShooter.cs (왼손/오른손 IK와 재장전을 제거한 초간단 버전!)
+
 using UnityEngine;
 
 public class PlayerShooter : MonoBehaviour

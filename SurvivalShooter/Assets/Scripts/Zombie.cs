@@ -1,4 +1,4 @@
-// 파일명: Zombie.cs
+
 using System.Text;
 using UnityEngine;
 using UnityEngine.AI;
@@ -172,7 +172,7 @@ public class Zombie : LivingEntity
         }
     }
 
-    
+
     private bool IsTargetInRange(float range)
     {
         return Target != null && Vector3.Distance(transform.position, Target.position) <= range;

@@ -1,4 +1,4 @@
-// 파일명: GunData.cs
+
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "GunData", menuName = "Scriptable Objects/GunData")]

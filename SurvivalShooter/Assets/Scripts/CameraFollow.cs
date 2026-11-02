@@ -1,4 +1,3 @@
-// 파일명: CameraFollow.cs
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
@@ -19,7 +18,7 @@ public class CameraFollow : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, Target.position + offset, SmoothSpeed * Time.deltaTime);
     }
 
-    // [정석 방식] (축약 방식: private Vector3 GetOffset(Vector3 camPos, Vector3 targetPos) => camPos - targetPos;)
+
     private Vector3 GetOffset(Vector3 camPos, Vector3 targetPos)
     {
         return camPos - targetPos;

@@ -1,4 +1,4 @@
-// 파일명: IDamageable.cs
+
 using UnityEngine;
 
 public interface IDamageable
